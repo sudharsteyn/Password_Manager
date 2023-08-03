@@ -1,0 +1,109 @@
+.bg-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-logo {
+  height: 50px;
+  width: 150px;
+}
+
+.pass-manager-img-1 {
+  display: flex;
+  height: 200px;
+  width: 200px;
+}
+
+.pass-manager-img-2 {
+  display: none;
+  height: 300px;
+  width: 500px;
+}
+
+.add-pass-container {
+  background-color: #5763a5;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .pass-manager-img-1 {
+    display: none;
+  }
+  .pass-manager-img-2 {
+    display: flex;
+    order: 1;
+  }
+  .add-pass-container {
+    flex-direction: row;
+  }
+}
+
+.user-input-container {
+  background-color: #454f84;
+  padding: 18px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.input-container {
+  background-color: #f8fafc;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.input-logo {
+  height: 20px;
+  width: 20px;
+}
+
+.separator {
+  margin: 0px;
+}
+
+.user-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.saved-password-container {
+  background-color: #5763a5;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.your-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pass-count-container {
+  display: flex;
+}
+
+.show-pass-cont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.no-pass-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-pass-img {
+  height: 180px;
+  width: 280px;
+}
